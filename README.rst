@@ -1,41 +1,72 @@
-AlertOps Expert Guidance
+MSP Security Incident Response Planning (a Quick Guide)
 ========
 
  
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+Every second counts when it comes to Managed Service Provider (MSP) security — the longer it takes an MSP to complete security incident response, the greater the ramifications of the incident on the service provider and its stakeholders.
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+When faced with a cyber attack, it’s crucial to understand the potential consequences of the security incident. It also is paramount for an MSP to establish a plan, so it can quickly and effectively respond to cyber attacks and other security incidents.
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
-
-Automate Processes
+Security Incident Response Preparation
 ====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+First, a security incident response plan is crucial for MSPs. This plan can help an MSP deal with cyber attacks and other security incidents before they cause data breaches, outages, and other issues. In addition, this plan should be backed by a dedicated team that includes security professionals who understand how to detect an incident, address it, and learn from it.
 
-Clarity
+Initially, a risk assessment should be performed that lets an MSP identify security vulnerabilities across its IT environment. Following the assessment, an MSP can identify its most-sensitive assets and prioritize them accordingly.
+
+With insights from its risk assessment, an MSP can craft a security incident response plan tailored to its everyday operations. The plan should detail:
+
+    The team responsible for incident response, along with each team member’s role and responsibility in incident response
+    Stakeholders who are affected by an incident
+    Steps that will be taken to remediate an incident
+
+Whenever possible, an MSP should try to automate incident response tasks. It should specify who will be notified at different stages of an incident and which communication methods will be used to maintain constant contact with stakeholders until the incident is resolved. Furthermore, an MSP should create templates that can be used to streamline communications throughout an incident and establish a backup strategy to ensure that its critical data remains accessible and safe 24/7.
+
+A monitoring strategy using appropriate tools is a vital component of security incident response planning, too. As part of this strategy, an MSP may want to leverage one or more of the following tools:
+
+    Log monitoring
+    Network monitoring
+    Disk monitoring
+    Security information and event management (SIEM)
+    Firewall protection
+
+Testing and training should be completed to ensure that a security incident response plan meets the current needs of an MSP. Penetration testing can be used to determine the effectiveness of myriad incident response tools, techniques, and processes. Meanwhile, exercises and drills can be used to assess incident response team members and their ability to remediate an incident without delay.
+
+An MSP should educate its employees and customers about cyber attacks and other security incidents as well. In doing so, an MSP can ensure that its employees and customers understand the differences between security events (end-user errors, deviation from normal operating procedures and behaviors, etc.) and security incidents (data breaches, outages, etc.). Plus, an MSP can educate incident response team members about security alerts — and why it is important to immediately respond to these alerts.
+
+Security Incident Response Stages
 ====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+During security incident response, an MSP’s incident response team must:
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
+    Identify and assess the situation
+    Gather as much information as possible
+    Evaluate affected apps, servers, networks, etc.
+    Apply temporary fixes to affected systems
+    Determine the root cause of the incident
+    Remediate the incident and find ways to prevent the incident from becoming a continuous problem
+    Restore affected systemsv
+    Test and verify that affected systems are operating normally once again
+    Monitor system performance for an appropriate amount of time based on the incident’s severity
 
-Insightful Notifications
+Immediately following an incident, an incident response team should perform a post-mortem. This allows team members to review what went right and what went wrong during the incident. They can then gather insights from their response, document their analysis, and make changes to their response efforts as needed.
+
+The Bottom Line on Security Incident Response
 ====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+Security incident response can be difficult for an MSP. But, the following steps can help an MSP establish a security incident response plan that consistently benefits the service provider and its stakeholders:
 
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+    Identify all stakeholders who can be involved in an incident
+    Establish and document an incident response process
+    Create message templates for customer service, tech management, and all other stakeholder groups
+    Ensure custom messages are delivered to different groups; an MSP should verify that messages are tailored to its target audience and delivered via the audience’s preferred communication channels
+    Develop an incident response playbook; with this playbook, an MSP should automate incident response tasks whenever possible and ensure appropriate actions are immediately executed as soon as an incident is identified
+    Automate incident response communications
+    Track incident response actions
+    Perform a post-mortem analysis after the incident is resolved; the analysis can be used to find out why the incident happened and what can be done to prevent similar incidents going forward
 
-1 Red Canary 2021 Threat Detection Report
+With the AlertOps incident alerting platform, an MSP can limit the risk that a cyber attack or other types of security incidents can cause short- or long-lasting harm to an MSP and its stakeholders.
 
+AlertOps empowers an MSP’s incident response team to quickly identify an incident, keep stakeholders up to date at all stages of an incident, analyze their incident response efforts, and find ways to prevent an incident from becoming an ongoing issue.
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
-
+https://alertops.com/msp-security/
 Read more:
 ====
 
